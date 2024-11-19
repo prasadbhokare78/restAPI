@@ -1,0 +1,6 @@
+flask
+flask_sqlalchemy
+werkzeug
+jwt
+datetime
+psycopg2-binary
