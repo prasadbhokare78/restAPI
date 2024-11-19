@@ -21,8 +21,7 @@ def signup():
             user = Users.query.filter_by(email=email).first()
             if user:
                 return make_response(
-                    {'message': 'Please sign in', 'status': 200},
-                    200
+                    {'message': 'Please sign in', 'status': 200}
                 )
             user = Users(
                 email=email,
