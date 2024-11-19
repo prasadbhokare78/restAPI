@@ -38,8 +38,7 @@ def signup():
             )
     except Exception as e:
         return make_response(
-            {'message': 'Unable to create User', 'status': 500},
-            500
+            {'message': 'Unable to create User', 'status': 500}
         )
 
 
